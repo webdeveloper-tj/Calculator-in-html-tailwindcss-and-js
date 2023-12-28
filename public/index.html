@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://unpkg.com/mathjs/lib/browser/math.js"></script>
+    <title>Calculation</title>
+  </head>
+  <body class="text-white text-6xl">
+    <div
+      class="w-11/12 h-screen95_1 mx-auto my-8 flex flex-col justify-end lg:h-screen80_1"
+    >
+      <!-- Container -->
+      <input
+        type="text"
+        class="[-moz-appearance:_textfield] [&::-webkit-inner-spin-button]:m-0 [&::-webkit-inner-spin-button]:appearance-none [&::-webkit-outer-spin-button]:m-0 [&::-webkit-outer-spin-button]:appearance-none outline-none border-2 border-b-orange-300 w-full mx-auto my-8 p-4 text-orange-500 text-right border-t-0 border-l-0 border-r-0 lg:h-1/6"
+        id="operating"
+      />
+      <div class="grid grid-cols-4 gap-5 w-full h-1/2">
+        <button
+          class="p-2 bg-orange-500 rounded-xl active:opacity-55 outline-none col-span-2"
+          id="clear"
+        >
+          C</button
+        ><button
+          class="p-2 bg-orange-500 rounded-xl duration-0 active:opacity-55 outline-none"
+          id="devide"
+        >
+          &divide;</button
+        ><button
+          class="p-2 bg-orange-500 rounded-xl duration-0 active:opacity-55 outline-none"
+          id="multipley"
+        >
+          *
+        </button>
+
+        <button
+          class="p-2 bg-orange-500 rounded-xl duration-0 active:opacity-55 outline-none"
+          id="seven"
+        >
+          7
+        </button>
+        <button
+          class="p-2 bg-orange-500 rounded-xl duration-0 active:opacity-55 outline-none"
+          id="eight"
+        >
+          8
+        </button>
+        <button
+          class="p-2 bg-orange-500 rounded-xl duration-0 active:opacity-55 outline-none"
+          id="nine"
+        >
+          9
+        </button>
+        <button
+          class="p-2 bg-orange-500 rounded-xl duration-0 active:opacity-55 outline-none"
+          id="minus"
+        >
+          -
+        </button>
+        <button
+          class="p-2 bg-orange-500 rounded-xl duration-0 active:opacity-55 outline-none"
+          id="four"
+        >
+          4
+        </button>
+        <button
+          class="p-2 bg-orange-500 rounded-xl duration-0 active:opacity-55 outline-none"
+          id="five"
+        >
+          5
+        </button>
+        <button
+          class="p-2 bg-orange-500 rounded-xl duration-0 active:opacity-55 outline-none"
+          id="six"
+        >
+          6
+        </button>
+        <button
+          class="p-2 bg-orange-500 rounded-xl duration-0 active:opacity-55 outline-none"
+          id="plus"
+        >
+          +
+        </button>
+        <button
+          class="p-2 bg-orange-500 rounded-xl duration-0 active:opacity-55 outline-none"
+          id="one"
+        >
+          1
+        </button>
+        <button
+          class="p-2 bg-orange-500 rounded-xl duration-0 active:opacity-55 outline-none"
+          id="two"
+        >
+          2
+        </button>
+        <button
+          class="p-2 bg-orange-500 rounded-xl duration-0 active:opacity-55 outline-none"
+          id="three"
+        >
+          3
+        </button>
+
+        <button
+          class="p-2 bg-orange-500 rounded-xl duration-0 active:opacity-55 outline-none col-span-2"
+          id="zero"
+        >
+          0
+        </button>
+        <button
+          class="p-2 bg-orange-500 rounded-xl duration-0 active:opacity-55 outline-none"
+          id="fullstop"
+        >
+          .
+        </button>
+
+        <button
+          class="col-start-4 row-start-4 row-span-2 active:opacity-55 outline-none bg-orange-600 rounded-xl duration-0"
+          id="equals"
+        >
+          =
+        </button>
+      </div>
+    </div>
+  </body>
+</html>
+<script type="module" src="main.js"></script>
